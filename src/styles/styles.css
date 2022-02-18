@@ -21,3 +21,11 @@ nav {
 .navImg {
     max-width: 100px;
 }
+
+.cardList {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+

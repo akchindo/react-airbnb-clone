@@ -5,18 +5,52 @@
 }
 
 .card {
-    width: 175px;
+    width: 180px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
 }
 
+.cardBadge {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
 .cardImage {
-    width: 100%;
+    width: 176px;
+    height: 235px;
     border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+
+.cardTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 190px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 110%;
+    margin-bottom: 8px;
 }
 
 .classStats {
     display: flex;
     align-items: center;
+    margin-bottom: 9px;
+
 }
 
 .cardStar {
